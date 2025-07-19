@@ -48,10 +48,10 @@ document.getElementById('userForm').addEventListener('submit', function (e) {
         url = 'https://wa.me/51904208040';
         break;
       case 'instagram':
-        url = 'https://www.instagram.com/tu_usuario'; // 🔁 reemplaza con tu enlace real
+        url = 'https://ig.me/1NsBcjZBTzkid8p'; // 🔁 reemplaza con tu enlace real
         break;
       case 'facebook':
-        url = 'https://www.facebook.com/tu_pagina'; // 🔁 reemplaza con tu enlace real
+        url = 'https://web.facebook.com/profile.php?id=61578442203052'; // 🔁 reemplaza con tu enlace real
         break;
       default:
         socialButtonContainer.style.display = 'none';

@@ -48,7 +48,7 @@ document.getElementById('userForm').addEventListener('submit', function (e) {
         url = 'https://wa.me/51904208040';
         break;
       case 'instagram':
-        url = 'https://ig.me/1NsBcjZBTzkid8p'; // 🔁 reemplaza con tu enlace real
+        url = 'https://www.instagram.com/relacionesunir?igsh=MTh4OGNocGI5NG9sNA%3D%3D&utm_source=qr'; // 🔁 reemplaza con tu enlace real
         break;
       case 'facebook':
         url = 'https://web.facebook.com/profile.php?id=61578442203052'; // 🔁 reemplaza con tu enlace real

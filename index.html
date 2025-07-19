@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💜 Unir Relaciones 💜</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>💜 Unir Relaciones 💜</h1>
+    <p>Conecta, comparte y ama. ¡Creado por Josue y su amiga!</p>
+  </header>
+
+  <main>
+    <h2>Regístrate</h2>
+    <form id="userForm">
+      <input type="text" name="name" placeholder="Tu nombre" required />
+      <input type="number" name="age" placeholder="Tu edad" required min="1" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <section id="payment-section" style="display: none;">
+      <h3>Información de Pago</h3>
+      <p id="payment-info"></p>
+
+      <div class="qrs" id="payment-methods" style="display: none;">
+        <div class="qr">
+          <p>Yape</p>
+          <img src="img/yape.png" alt="QR Yape">
+        </div>
+        <div class="qr">
+          <p>Plin</p>
+          <img src="img/plin.png" alt="QR Plin">
+        </div>
+      </div>
+
+      <div id="social-container" style="display: none;">
+        <label for="social-select">Elige una red social para contactarnos:</label>
+        <select id="social-select">
+          <option value="">-- Elige una red social --</option>
+          <option value="whatsapp1">WhatsApp Josue</option>
+          <option value="whatsapp2">WhatsApp Amiga</option>
+          <option value="instagram">Instagram</option>
+          <option value="facebook">Facebook</option>
+        </select>
+
+        <div id="social-button-container" style="display: none;">
+          <a id="social-button" href="#" target="_blank" class="social-link-btn">Ir a la red social</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Unir Relaciones | Hecho con 💜 por Josue Rojas y su amiga
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
